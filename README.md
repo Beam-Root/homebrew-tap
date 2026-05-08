@@ -23,7 +23,7 @@ brew install beamca-agent
 ## Releases
 
 Binaries are published to
-[beam-root/releases](https://github.com/beam-root/releases). Each
+[beam-root/beamca-releases](https://github.com/beam-root/beamca-releases). Each
 formula points at a specific signed + notarized release artifact for
 darwin/{arm64,amd64} and linux/{arm64,amd64}.
 

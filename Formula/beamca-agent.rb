@@ -6,14 +6,14 @@ class BeamcaAgent < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/beam-root/releases/releases/download/v0.0.0-dev/beamca-agent-darwin-arm64.tar.gz"
+      url "https://github.com/beam-root/beamca-releases/releases/download/v0.0.0-dev/beamca-agent-darwin-arm64.tar.gz"
       sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
       def install
         bin.install "beamca-agent-darwin-arm64" => "beamca-agent"
       end
     else
-      url "https://github.com/beam-root/releases/releases/download/v0.0.0-dev/beamca-agent-darwin-amd64.tar.gz"
+      url "https://github.com/beam-root/beamca-releases/releases/download/v0.0.0-dev/beamca-agent-darwin-amd64.tar.gz"
       sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
       def install
@@ -24,14 +24,14 @@ class BeamcaAgent < Formula
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/beam-root/releases/releases/download/v0.0.0-dev/beamca-agent-linux-arm64.tar.gz"
+      url "https://github.com/beam-root/beamca-releases/releases/download/v0.0.0-dev/beamca-agent-linux-arm64.tar.gz"
       sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
       def install
         bin.install "beamca-agent-linux-arm64" => "beamca-agent"
       end
     else
-      url "https://github.com/beam-root/releases/releases/download/v0.0.0-dev/beamca-agent-linux-amd64.tar.gz"
+      url "https://github.com/beam-root/beamca-releases/releases/download/v0.0.0-dev/beamca-agent-linux-amd64.tar.gz"
       sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
       def install
